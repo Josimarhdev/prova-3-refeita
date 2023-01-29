@@ -1,0 +1,444 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.mainheader {
+    display: flex;
+    height: 100px;
+    background-color: #043873;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.imagem {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+
+    width: 191px;
+
+
+}
+
+
+
+
+.links {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+
+.links p {
+
+    margin: 20px;
+
+    color: white;
+
+}
+
+.seta {
+
+    width: 10px;
+
+
+}
+
+.botoes {
+
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.login {
+
+    background-color: #FFE492;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    margin-right: 10px;
+
+}
+
+.try {
+
+    background-color: #4F9CF9;
+    padding: 10px 30px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.fundoazul {
+    display: flex;
+    height: 869px;
+    background-color: #043873;
+    background-image: url('./Element.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.fundoazul h2 {
+
+    color: white;
+    font-size: 64px;
+}
+
+.fundoazul p {
+
+    color: white;
+    font-size: 15px;
+
+}
+
+
+
+
+.imgplaneta {
+
+    width: 710px;
+
+
+}
+
+.fundobranco {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 976px;
+
+
+
+
+}
+
+.imagemp {
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+}
+
+.txtp {
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+
+}
+
+.txtp h2 {
+
+    background-image: url('./sublinhado.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 60% 80%;
+    font-size: 72px;
+
+
+}
+
+
+.conteudofooter {
+
+    height: 100px;
+    background-color: #043873;
+    ;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.listafooter {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudofooter ul {
+
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+
+}
+
+.conteudofooter ul li {
+
+    margin-right: 30px;
+
+}
+
+.fb {
+
+    width: 15px;
+
+}
+
+.redes {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.redes ul {
+
+    display: flex;
+
+
+}
+
+.imagembarra {
+
+    display: none;
+
+}
+
+@media screen and (max-width: 768px){
+
+
+   
+
+    .links {
+        display: none;
+
+    }
+
+    .botoes {
+        display: none;
+
+    }
+
+    .imagembarra {
+
+        display: flex;
+
+    }
+
+    .barrinha {
+
+        width: 50px;
+
+    }
+
+    .imagem {
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+    }
+
+    .fundoazul h2 {
+
+        color: white;
+        font-size: 64px;
+        text-align: center;
+
+    }
+
+    .fundoazul p {
+
+        color: white;
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .imgplaneta {
+
+        width: 600px;
+
+
+    }
+
+    .imagemp {
+
+        display: flex;
+        flex-direction: row;
+        padding-left: 75px;
+    }
+
+    .txtp {
+
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        text-align: center;
+
+    }
+
+    .txtp h2 {
+
+        background-image: url('./sublinhado.png');
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: 60% 80%;
+        font-size: 72px;
+        text-align: center;
+
+
+    }
+
+    .redes {
+
+        display: none;
+
+    }
+
+
+    .listafooter {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+
+
+   
+
+    .links {
+        display: none;
+
+    }
+
+    .botoes {
+        display: none;
+
+    }
+
+    .imagembarra {
+
+        display: flex;
+        width: 20%;
+    }
+
+    .barrinha {
+
+        width: 50px;
+
+    }
+
+    .imagem {
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+    }
+
+    .fundoazul h2 {
+
+        color: white;
+        font-size: 64px;
+        text-align: center;
+
+    }
+
+    .fundoazul p {
+
+        color: white;
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .imgplaneta {
+
+        width: 360px;
+
+
+    }
+
+    .imagemp {
+
+        display: flex;
+        flex-direction: row;
+        padding-left: 75px;
+    }
+
+    .txtp {
+
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        text-align: center;
+
+    }
+
+    .txtp h2 {
+
+        background-image: url('./sublinhado.png');
+        background-repeat: no-repeat;
+        background-size: 300px;
+        background-position: 60% 80%;
+        font-size: 72px;
+        text-align: center;
+
+
+    }
+
+    .redes {
+
+        display: none;
+
+    }
+
+  
+
+    .listafooter {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudofooter ul {
+
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    
+    
+    }
+    
+
+
+}
